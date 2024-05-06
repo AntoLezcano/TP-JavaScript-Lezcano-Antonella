@@ -1,5 +1,5 @@
 let edad =  prompt("ingrese su edad");
-
+/* estructura de control para mostrar el rango de edad */
 if (edad >= 0 && edad <=12 ){
 console.log("su rango de edad ´niño´")
 } 
@@ -15,3 +15,5 @@ if (edad >= 20 && edad <=59 ){
         console.log("probablemente esta muerto")
     }
     
+
+
