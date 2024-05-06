@@ -9,7 +9,9 @@ if (edad  >= 13 && edad <= 19 ){
 if (edad >= 20 && edad <=59 ){
     console.log("su rango de edad ´adulto´")
     } 
-    if (edad  >= 60 ){
+    if (edad  >= 60 && 120<= edad ){
         console.log("su rango de edad es ´adulto mayor´")
+    } else {
+        console.log("probablemente esta muerto")
     }
     
