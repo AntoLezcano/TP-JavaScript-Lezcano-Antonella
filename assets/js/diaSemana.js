@@ -1,6 +1,6 @@
 let diaSem = prompt(console.log("Ingrese un numero del 1 al 7"))
 
-switch (parseFloat(diaSem)) {
+switch (parseInt(diaSem)) {
     case 1:
         console.log("Lunes")
         break;
